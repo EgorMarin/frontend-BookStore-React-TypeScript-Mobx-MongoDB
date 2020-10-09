@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,145 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.p {
+  font-size: 33px;
+  font-weight: 700;
+  margin-bottom: -0px;
+}
+
+.p:first-letter {
+  text-transform:capitalize;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.carousel {
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+
+.carousel-image {
+  max-height: 200px;
+  width: 100%;
+}
+
+.select-genre {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.range {
+  margin-top: 25px;
+  padding: 0px 10px;
+}
+
+.range-slider {
+  margin-top: 15px;
+}
+
+.content-products {
+  min-height: 90vh;
+}
+
+
+.content-products-list {
+  padding: 20px;
+  background: #fff;
+}
+
+.content-products-list-sort {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Card */
+.card {
+  height: 425px;
+}
+
+.card-image {
+  height: 250px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-self: space-between;
+}
+
+.card-info-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-info-buy {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-self-info-buy {
+  margin: 5px 0px 12px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-info-buy-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+/* Login Page */
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.login-form-link {
+  font-size: 16px;
+}
+
+/* Product Page */
+.product-comments {
+  background-color: #fafafa;
+  padding: 10px 20px;
+  border-radius: 10px
+}
+
+.product-without-comments {
+  background-color: #fafafa;
+  padding: 50px 0;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* Cart Page */
+.cart-price {
+  font-size: 25px;
+}
+
+/* Orders Page */
+.order-fontsize {
+  font-weight: 600;
+  font-size: 15px;
 }
